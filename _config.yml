@@ -27,7 +27,7 @@ author:
   name             : "Haoyu Kang"
   pronouns         : # example: "she/her"  
   bio              : "CS Researcher, NLPer"
-  location         : "Xi'an"
+  location         : "Xi'an, China"
   employer         : "Central South University"
   uri              : # URL
   email            : "lucasalexander2000925@gmail.com" 
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -74,7 +74,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : # @HaoyuLucasKang
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
