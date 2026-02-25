@@ -24,13 +24,13 @@ repository               : "HaoyuLucasKang/HaoyuLucasKang.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Haoyu Kang"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "CS Researcher, NLPer"
+  location         : "Xi'an"
+  employer         : "Central South University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "lucasalexander2000925@gmail.com" 
 
   # Academic websites
   academia         : # URL
