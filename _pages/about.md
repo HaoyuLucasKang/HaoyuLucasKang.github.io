@@ -15,9 +15,9 @@ Education
 ======
 *B.Eng.Computer Science, Central South University,  Sept 2022 - June 2026*
 
-Others
+Other
 ======
-I'm a thesis-track master applicant at 26 Fall. If you are a CSU student and wish to apply for a master or Ph.d program at USA, feel free to [email](lucasalexander2000925@gmail.com) me and we can have a casual chat to give you some advice. 
+I'm a thesis-track master applicant at 26 Fall. If you are a CSU student and wish to apply for a master or Ph.d program at USA, feel free to [email](mailto:lucasalexander2000925@gmail.com) me and we can have a casual chat to give you some advice. 
 
 
 
