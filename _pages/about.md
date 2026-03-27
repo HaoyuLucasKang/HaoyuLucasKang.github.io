@@ -7,8 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! I'm a senior student in Computer Science at Central South Univeristy. 
-I am interested in: RL4LLMs, VLM Agents, Data-Centric AI and etc. Currently, I'm working on a project of VLM agents.
+Hi there! I'm an incoming master student at University of North Carolina at Chaple Hill, advised by [Prof.Tianlong Chen](https://tianlong-chen.github.io/). 
+
+I am interested in: RL4LLMs, VLA, VLM Agents, Data-Centric AI and etc. Currently, I'm working on a project of VLA.
+
+Previously I obtained my bachelor degree in Computer Science from Central South University.
 During my undergraduate studies, I also spent one term as a visiting research student at The Hong Kong University of Science and Technology (Guangzhou), advised by [Prof.Yuyu Luo](https://luoyuyu.vip/). 
 
 Education
