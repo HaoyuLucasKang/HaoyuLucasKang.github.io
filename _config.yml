@@ -23,7 +23,7 @@ repository               : "HaoyuLucasKang/HaoyuLucasKang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "ala.png"
+  avatar           : "ala.jpg"
   name             : "Haoyu Kang"
   pronouns         : # example: "she/her"  
   bio              : "CS Researcher, NLPer"
