@@ -246,6 +246,60 @@
   text-transform: uppercase;
 }
 
+.home-publication {
+  margin: 1.5rem 0 2rem;
+
+  @include breakpoint($medium) {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+}
+
+.home-publication__image {
+  margin-bottom: 1rem;
+
+  @include breakpoint($medium) {
+    flex: 0 0 38%;
+    margin-bottom: 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--global-border-color);
+    box-shadow: 0 6px 20px rgba(#000, 0.12);
+  }
+}
+
+.home-publication__content {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.page__content .home-publication__title {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0;
+  border-bottom: 0;
+  line-height: 1.3;
+}
+
+.home-publication__authors,
+.home-publication__meta,
+.home-publication__links {
+  margin: 0 0 0.75rem;
+}
+
+.home-publication__authors {
+  font-size: $type-size-5;
+}
+
+.home-publication__meta {
+  color: var(--global-text-color-light);
+}
+
 
 /*
    Page taxonomy
