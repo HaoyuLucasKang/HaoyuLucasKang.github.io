@@ -22,6 +22,8 @@ Education
 Selected Publications
 ======
 
+* indicates equal contribution
+
 <div class="home-publication">
   <div class="home-publication__image">
     <a href="https://arxiv.org/abs/2606.25592">
@@ -32,10 +34,9 @@ Selected Publications
     <h3 class="home-publication__title">
       <a href="https://arxiv.org/abs/2606.25592">VPA-Guard: Defending and Benchmarking Image-to-Video Generation Against Visual Prompt Attacks</a>
     </h3>
-    <p class="home-publication__authors">Yining Sun, <strong>Haoyu Kang</strong>, et al., Alex Jinpeng Wang</p>
+    <p class="home-publication__authors">Yining Sun<sup>*</sup>, <strong>Haoyu Kang</strong><sup>*</sup>, et al., Alex Jinpeng Wang</p>
     <p class="home-publication__meta"><i>arXiv</i>, 2026</p>
     <p class="home-publication__links"><a href="https://arxiv.org/abs/2606.25592">Paper</a></p>
   </div>
 </div>
-
 
