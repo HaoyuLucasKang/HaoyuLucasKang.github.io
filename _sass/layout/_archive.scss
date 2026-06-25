@@ -74,6 +74,50 @@
   }
 }
 
+.archive__item--publication-feature {
+  @include breakpoint($medium) {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+}
+
+.archive__item-teaser--publication-feature {
+  margin-bottom: 1rem;
+
+  @include breakpoint($medium) {
+    flex: 0 0 42%;
+    margin-bottom: 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--global-border-color);
+    box-shadow: 0 6px 20px rgba(#000, 0.12);
+  }
+}
+
+.archive__item-body--publication-feature {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.archive__item-authors,
+.archive__item-note {
+  margin: 0 0 0.5rem;
+}
+
+.archive__item-authors {
+  font-size: $type-size-5;
+  line-height: 1.5;
+}
+
+.archive__item-note {
+  color: var(--global-text-color-light);
+}
+
 .archive__item:hover {
   .archive__item-teaser {
     box-shadow: 0 0 10px rgba(#000, 0.25);
