@@ -21,8 +21,7 @@ Education
 
 Selected Publications
 ======
-
-* indicates equal contribution
+<p><sup>*</sup> indicates equal contribution</p>
 
 <div class="home-publication">
   <div class="home-publication__image">
@@ -39,4 +38,3 @@ Selected Publications
     <p class="home-publication__links"><a href="https://arxiv.org/abs/2606.25592">Paper</a></p>
   </div>
 </div>
-
