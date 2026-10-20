@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! I'm an incoming Master student in Computer Science at University of North Carolina at Chaple Hill, advised by [Prof.Tianlong Chen](https://tianlong-chen.github.io/). 
+Hi there! I'm a Master student in Computer Science at University of North Carolina at Chaple Hill, advised by [Prof.Tianlong Chen](https://tianlong-chen.github.io/). 
 
 My research focuses on efficient perception and modeling of the physical world. My interests include efficient 3D reconstruction, video generation, multi-robot collaboration, and vision-language-action (VLA) models that generalize to new environments and tasks.
 
