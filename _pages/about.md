@@ -9,7 +9,7 @@ redirect_from:
 
 Hi there! I'm an incoming Master student in Computer Science at University of North Carolina at Chaple Hill, advised by [Prof.Tianlong Chen](https://tianlong-chen.github.io/). 
 
-I am interested in: RL4LLMs, VLA, VLM Agents, Data-Centric AI and etc. Currently, I'm working on a project of VLA.
+My research focuses on efficient perception and modeling of the physical world. My interests include efficient 3D reconstruction, video generation, multi-robot collaboration, and vision-language-action (VLA) models that generalize to new environments and tasks.
 
 Previously I obtained my bachelor degree in Computer Science from Central South University.
 During my undergraduate studies, I also spent one term as a visiting research student at The Hong Kong University of Science and Technology (Guangzhou), advised by [Prof.Yuyu Luo](https://luoyuyu.vip/). 
