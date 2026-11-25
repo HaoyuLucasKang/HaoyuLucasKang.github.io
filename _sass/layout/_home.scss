@@ -74,7 +74,7 @@ body {
   }
 }
 
-/* ---------- Section headings (News, Publications, Honors and Awards) ---------- */
+/* ---------- Section headings (Education, Selected Publications) ---------- */
 
 .page__content .section-heading {
   margin: 1.8em 0 0.8em;
@@ -103,6 +103,35 @@ body {
   margin: 0 0 0.5em;
   font-size: 0.85em;
   color: var(--global-text-color-light);
+}
+
+/* ---------- Education: school and dates on one line, degree below ---------- */
+
+.home-education__item {
+  margin-bottom: 0.9em;
+}
+
+.home-education__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  column-gap: 1rem;
+}
+
+.home-education__school {
+  font-weight: 700;
+}
+
+/* dates always stay on the right; a long school name wraps instead */
+.home-education__date {
+  flex: none;
+  white-space: nowrap;
+  color: var(--global-text-color-light);
+}
+
+.home-education__degree {
+  color: var(--global-text-color-light);
+  font-style: italic;
 }
 
 /* ---------- Publication card: figure (with venue badge) left, text right ---------- */

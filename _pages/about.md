@@ -10,25 +10,32 @@ I am a first-year M.S. student in Computer Science at the University of North Ca
 
 **Goal:** Build embodied agents that perceive, imagine, and act reliably and efficiently in the physical world.
 
-**Research Topics:** 3D Vision, Video Generation, Vision-Language-Action Models, Embodied AI
-
 My work spans three complementary directions:
 
-1. **Perceive:** efficient 3D perception from long video streams. Recent work includes a hybrid Mamba2 and sparse-attention model that reconstructs 3D scenes from long video streams at an almost constant cost per frame ([LinearVGGT, Preprint 2026](#linearvggt)).
-2. **Imagine:** safe and controllable video generation as world simulators. Recent work includes a benchmark and a defense for visual prompt attacks on image-to-video models ([VPA-Guard, arXiv 2026](https://arxiv.org/abs/2606.25592)).
+1. **Perceive:** efficient 3D perception from long video streams ([LinearVGGT, Preprint 2026](#linearvggt)).
+2. **Imagine:** safe and controllable video generation as world simulators ([VPA-Guard, arXiv 2026](#vpa-guard)).
 3. **Act:** embodied intelligence for new domains, scenarios and applications.
 
-I also serve as a reviewer for **ECCV** and **ICRA**.
+<h2 class="section-heading" id="education">Education</h2>
 
-If our research interests align, please feel free to send me an email at **haoyuk[at]cs.unc.edu**.
+<div class="home-education">
+  <div class="home-education__item">
+    <div class="home-education__row">
+      <span class="home-education__school">University of North Carolina at Chapel Hill</span>
+      <span class="home-education__date">Aug 2026 &ndash; Present</span>
+    </div>
+    <div class="home-education__degree">M.S. in Computer Science</div>
+  </div>
+  <div class="home-education__item">
+    <div class="home-education__row">
+      <span class="home-education__school">Central South University</span>
+      <span class="home-education__date">Sep 2022 &ndash; July 2026</span>
+    </div>
+    <div class="home-education__degree">B.Eng. in Computer Science</div>
+  </div>
+</div>
 
-<h2 class="section-heading" id="news">🔥 News &amp; Milestones</h2>
-
-- *August 2026*: 🎓 Started my M.S. in Computer Science at **UNC Chapel Hill**.
-- *July 2026*: 🎓 Graduated from **Central South University** with a B.Eng. in Computer Science.
-- *June 2026*: 📄 Released **VPA-Guard** on arXiv. [Paper](https://arxiv.org/abs/2606.25592) · [Code](https://github.com/HaoyuLucasKang/VPA-Guard)
-
-<h2 class="section-heading" id="publications">Publications</h2>
+<h2 class="section-heading" id="publications">Selected Publications</h2>
 
 <p class="home-note"><sup>*</sup> Equal contribution</p>
 
@@ -77,8 +84,3 @@ If our research interests align, please feel free to send me an email at **haoyu
     </details>
   </div>
 </div>
-
-<h2 class="section-heading" id="honors">🎖 Honors and Awards</h2>
-
-- 2024&ndash;2025 Academic Performance Scholarship, Central South University
-- 6-Month Research Scholarship, HKUST (Guangzhou)
