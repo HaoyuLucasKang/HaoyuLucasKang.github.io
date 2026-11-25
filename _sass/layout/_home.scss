@@ -1,0 +1,243 @@
+/* ==========================================================================
+   HOME PAGE
+   Typography, section headings and publication cards for the home page.
+   Colors use the theme variables, so the dark theme keeps working.
+   ========================================================================== */
+
+/* ---------- Global typography ---------- */
+
+$home-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+  "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem; /* section links do not hide the heading under the top bar */
+}
+
+/* light theme only; the dark theme sets its own values on html[data-theme="dark"] */
+:root {
+  --global-text-color: #2f3640;
+  --global-text-color-light: #5a616a;
+  --global-border-color: #e6eaf0;
+  --global-link-color: #224b8d;
+  --global-link-color-hover: #193f73;
+  --global-link-color-visited: #224b8d;
+  --home-heading-color: #1f2a37;
+  --home-soft-bg: #f7f8fa;
+  --home-soft-text: #526174;
+}
+
+html[data-theme="dark"] {
+  --home-heading-color: var(--global-text-color);
+  --home-soft-bg: rgba(255, 255, 255, 0.06);
+  --home-soft-text: var(--global-text-color-light);
+}
+
+body,
+h1, h2, h3, h4, h5, h6,
+.masthead,
+.author__name,
+.page__content {
+  font-family: $home-font-family;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page__content {
+  line-height: 1.7;
+
+  p {
+    margin: 0 0 0.6em;
+  }
+
+  li {
+    margin-bottom: 0.6em;
+    line-height: 1.6;
+  }
+
+  a {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+  }
+}
+
+/* Use the full width for the text column: the theme keeps two empty grid
+   columns on the right for a sidebar that this site does not use */
+.page {
+  @include breakpoint($large) {
+    padding-right: 0;
+  }
+}
+
+/* ---------- Section headings (News, Publications, Honors and Awards) ---------- */
+
+.page__content .section-heading {
+  margin: 1.8em 0 0.8em;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid var(--global-border-color);
+  color: var(--home-heading-color);
+  font-size: 1.45em;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.012em;
+}
+
+/* "Research Interest N: ..." headings above each group of papers */
+.page__content .home-interest-heading {
+  margin: 2em 0 0.4em;
+  padding-bottom: 0;
+  border-bottom: 0;
+  color: var(--home-heading-color);
+  font-size: 1.14em;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+/* Small gray note, for example the equal-contribution mark */
+.page__content .home-note {
+  margin: 0 0 0.5em;
+  font-size: 0.85em;
+  color: var(--global-text-color-light);
+}
+
+/* ---------- Publication card: figure (with venue badge) left, text right ---------- */
+
+.home-publication {
+  padding: 1.6em 0;
+  border-bottom: 1px solid var(--global-border-color);
+
+  @include breakpoint($medium) {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+    gap: 2em;
+    align-items: start;
+  }
+}
+
+.home-publication__image {
+  position: relative;
+  margin-bottom: 1em;
+
+  @include breakpoint($medium) {
+    margin-bottom: 0;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 16 / 10;
+    width: 100%;
+    padding: 0.55em;
+    border: 1px solid #e9edf1;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 1px 5px rgba(15, 23, 42, 0.06);
+    overflow: hidden;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  }
+
+  a:hover {
+    border-color: #cdd8e6;
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.1);
+    transform: translateY(-2px);
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: none;
+  }
+}
+
+.home-publication__badge {
+  position: absolute;
+  z-index: 1;
+  top: 0.6em;
+  left: -0.35em;
+  padding: 0.25em 0.7em;
+  border-radius: 2px;
+  background: #224b8d;
+  color: #fff;
+  font-size: 0.76em;
+  line-height: 1.4;
+}
+
+.home-publication__content {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.page__content .home-publication__title {
+  margin: 0 0 0.65em;
+  padding-bottom: 0;
+  border-bottom: 0;
+  color: var(--global-link-color);
+  font-size: 1.1em;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.page__content .home-publication__authors {
+  margin: 0 0 0.65em;
+  color: var(--global-text-color-light);
+  font-size: 0.94em;
+
+  strong {
+    color: var(--global-text-color);
+  }
+}
+
+.page__content .home-publication__links {
+  margin: 0 0 0.65em;
+  font-size: 0.92em;
+
+  a {
+    font-weight: 600;
+  }
+}
+
+.home-publication__pending {
+  color: var(--global-text-color-light);
+}
+
+.page__content .home-publication__tldr {
+  margin: 0 0 0.65em;
+}
+
+.home-publication__details {
+  margin-top: 0.7em;
+
+  > summary {
+    padding: 0.7em 0.8em;
+    border-radius: 4px;
+    background: var(--home-soft-bg);
+    color: var(--home-soft-text);
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+
+  > summary:hover {
+    color: var(--global-link-color);
+  }
+}
+
+.home-publication__abstract {
+  margin-top: 0.6em;
+  padding: 0.85em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 4px;
+  background: var(--home-soft-bg);
+  font-size: 0.9em;
+  line-height: 1.65;
+}

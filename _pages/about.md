@@ -1,55 +1,44 @@
 ---
 permalink: /
-title: "Haoyu Kang's Homepage"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hi there! I'm a Master student in Computer Science at University of North Carolina at Chapel Hill, working with [Prof. Tianlong Chen](https://tianlong-chen.github.io/). 
+I am a first-year M.S. student in Computer Science at the University of North Carolina at Chapel Hill, working with [Prof. Tianlong Chen](https://tianlong-chen.github.io/). I received my B.Eng. degree in Computer Science from Central South University. During my undergraduate studies, I spent one term as a visiting research student at The Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Yuyu Luo](https://luoyuyu.vip/).
 
-Previously I obtained my bachelor degree in Computer Science from Central South University.
-During my undergraduate studies, I also spent one term as a visiting research student at The Hong Kong University of Science and Technology (Guangzhou), advised by [Prof. Yuyu Luo](https://luoyuyu.vip/). 
+**Goal:** Build embodied agents that perceive, imagine, and act reliably and efficiently in the physical world.
 
-Research Interests
-======
-My research centers on building embodied agents that **perceive**, **imagine**, and **act** reliably and efficiently in the physical world.
+**Research Topics:** 3D Vision, Video Generation, Vision-Language-Action Models, Embodied AI
 
-- **Perceive:** efficient 3D perception from long video streams.
-- **Imagine:** safe and controllable video generation as world simulators.
-- **Act:** embodied intelligence for new domains, scenarios and applications.
+My work spans three complementary directions:
 
-Education
-======
-<div class="home-education">
-  <div class="home-education__item">
-    <div class="home-education__row">
-      <span class="home-education__school">University of North Carolina at Chapel Hill</span>
-      <span class="home-education__date">Aug 2026 &ndash; Present</span>
-    </div>
-    <div class="home-education__degree">M.S. in Computer Science</div>
-  </div>
-  <div class="home-education__item">
-    <div class="home-education__row">
-      <span class="home-education__school">Central South University</span>
-      <span class="home-education__date">Sep 2022 &ndash; July 2026</span>
-    </div>
-    <div class="home-education__degree">B.Eng. in Computer Science</div>
-  </div>
-</div>
+1. **Perceive:** efficient 3D perception from long video streams. Recent work includes a hybrid Mamba2 and sparse-attention model that reconstructs 3D scenes from long video streams at an almost constant cost per frame ([LinearVGGT, Preprint 2026](#linearvggt)).
+2. **Imagine:** safe and controllable video generation as world simulators. Recent work includes a benchmark and a defense for visual prompt attacks on image-to-video models ([VPA-Guard, arXiv 2026](https://arxiv.org/abs/2606.25592)).
+3. **Act:** embodied intelligence for new domains, scenarios and applications.
 
-Selected Publications
-======
+I also serve as a reviewer for **ECCV** and **ICRA**.
+
+If our research interests align, please feel free to send me an email at **haoyuk[at]cs.unc.edu**.
+
+<h2 class="section-heading" id="news">🔥 News &amp; Milestones</h2>
+
+- *August 2026*: 🎓 Started my M.S. in Computer Science at **UNC Chapel Hill**.
+- *July 2026*: 🎓 Graduated from **Central South University** with a B.Eng. in Computer Science.
+- *June 2026*: 📄 Released **VPA-Guard** on arXiv. [Paper](https://arxiv.org/abs/2606.25592) · [Code](https://github.com/HaoyuLucasKang/VPA-Guard)
+
+<h2 class="section-heading" id="publications">Publications</h2>
+
 <p class="home-note"><sup>*</sup> Equal contribution</p>
 
-<h2 class="home-interest-heading"><span class="home-interest-heading__tag">Perceive</span>Efficient 3D perception from long video streams</h2>
+<h3 class="home-interest-heading">Research Interest 1: Perceive &mdash; Efficient 3D Perception from Long Video Streams</h3>
 
-<div class="home-publication">
+<div class="home-publication" id="linearvggt">
   <div class="home-publication__image">
     <span class="home-publication__badge">Preprint 2026</span>
     <a href="https://unites-lab.github.io/linear-vggt/">
-      <img src="/images/LinearVGGT.png" alt="LinearVGGT method overview" loading="lazy">
+      <img src="/images/LinearVGGT-method.png" alt="LinearVGGT method overview" loading="lazy">
     </a>
   </div>
   <div class="home-publication__content">
@@ -66,9 +55,9 @@ Selected Publications
   </div>
 </div>
 
-<h2 class="home-interest-heading"><span class="home-interest-heading__tag">Imagine</span>Safe and controllable video generation as world simulators</h2>
+<h3 class="home-interest-heading">Research Interest 2: Imagine &mdash; Safe and Controllable Video Generation as World Simulators</h3>
 
-<div class="home-publication">
+<div class="home-publication" id="vpa-guard">
   <div class="home-publication__image">
     <span class="home-publication__badge">arXiv 2026</span>
     <a href="https://arxiv.org/abs/2606.25592">
@@ -88,3 +77,8 @@ Selected Publications
     </details>
   </div>
 </div>
+
+<h2 class="section-heading" id="honors">🎖 Honors and Awards</h2>
+
+- 2024&ndash;2025 Academic Performance Scholarship, Central South University
+- 6-Month Research Scholarship, HKUST (Guangzhou)
