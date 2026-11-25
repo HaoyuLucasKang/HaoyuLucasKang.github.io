@@ -156,7 +156,9 @@ body {
     margin-bottom: 0;
   }
 
-  a {
+  /* figure frame: a link to the paper, or a plain box when there is no link yet */
+  a,
+  .home-publication__frame {
     display: flex;
     align-items: center;
     justify-content: center;

@@ -84,3 +84,33 @@ My work spans three complementary directions:
     </details>
   </div>
 </div>
+
+<h3 class="home-interest-heading">Research Interest 3: Act &mdash; Embodied Intelligence for New Domains, Scenarios and Applications</h3>
+
+<div class="home-publication" id="issvla">
+  <div class="home-publication__image">
+    <span class="home-publication__badge">Under Review</span>
+    <div class="home-publication__frame">
+      <img src="/images/ISSVLA-teaser.jpg" alt="ISSVLA: a free-flying robot does astronaut tasks in a space station module" loading="lazy">
+    </div>
+  </div>
+  <div class="home-publication__content">
+    <h3 class="home-publication__title">SpaceVLA: Toward Autonomous Astronaut-Task Manipulation with Free-Flying Robots in Space Stations</h3>
+    <!-- <p class="home-publication__authors"><strong>Haoyu Kang</strong>, ...</p> -->
+    <p class="home-publication__tldr"><strong>TL;DR.</strong> We built a VLA-based mobile manipulation system for a free-flying robot with a 7-DoF arm, to automate repetitive astronaut tasks inside the space station. A fine-tuned &pi;<sub>0.5</sub> predicts the 3D payload position and the source and target sites, and a reaction-null-space (RNS) arm controller with a drift-compensated base executor keeps arm motion from pushing the floating base away in microgravity. On the IVA benchmark (6 task families, 100 randomized episodes each), it reaches 95% success on the rack-to-locker task in Isaac Sim, where end-to-end VLA baselines get 0% and VLM pointing baselines get at most 51%.</p>
+  </div>
+</div>
+
+<div class="home-publication" id="harnessvla">
+  <div class="home-publication__image">
+    <span class="home-publication__badge">Under Review</span>
+    <div class="home-publication__frame">
+      <img src="/images/HarnessVLA-pipeline.png" alt="Pipeline: a frozen VLM coordinates the dog and arm agents through a closed-loop harness" loading="lazy">
+    </div>
+  </div>
+  <div class="home-publication__content">
+    <h3 class="home-publication__title">Harnessing Rigidly-Coupled Multi-Robots Collaboration with VLM Agent Coordination</h3>
+    <!-- <p class="home-publication__authors"><strong>Haoyu Kang</strong>, ...</p> -->
+    <p class="home-publication__tldr"><strong>TL;DR.</strong> We represent rigidly-coupled subsystems as virtual agents and use a frozen VLM to plan their skills in a domain-specific language. On a quadruped&ndash;arm robot, it coordinates an RL navigation policy and a fine-tuned &pi;<sub>0</sub> manipulation policy. A closed-loop harness schedules skills, verifies their outcomes against grounded postconditions and triggers replanning, with peer-intent conditioning and a cross-episode lesson store. On MM-Bench (250 tasks in kitchen, living-room and factory scenes), it reaches 75.3% overall success with Claude Opus 4.6, against 69.7% for the best baseline (EMOS).</p>
+  </div>
+</div>
