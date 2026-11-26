@@ -49,7 +49,7 @@ My work spans three complementary directions:
     </a>
   </div>
   <div class="home-publication__content">
-    <h3 class="home-publication__title">Linear-time Online Visual Geometry Transformer with Hybrid Architecture</h3>
+    <h3 class="home-publication__title">Linear-Time Online Visual Geometry Transformer with Hybrid Architecture</h3>
     <p class="home-publication__authors"><strong>Haoyu Kang</strong>, Pingzhi Li, Ruichen Zhang, Tianlong Chen</p>
     <p class="home-publication__links"><a href="https://arxiv.org/abs/2611.33650">Paper</a> | <a href="https://unites-lab.github.io/linear-vggt/">Project Page</a> | <a href="https://github.com/UNITES-Lab/linear-vggt">Code</a></p>
     <p class="home-publication__tldr"><strong>TL;DR.</strong> Online 3D reconstruction models either cache all past tokens, so compute grows quadratically with the stream length, or keep a fixed-size state that forgets early geometry. We proposed LinearVGGT, a hybrid model distilled from StreamVGGT. It uses Mamba2 layers in three of every four global layers and register-guided sparse attention in the other layers to retrieve relevant past frames. LinearVGGT keeps an almost constant latency of 27&nbsp;ms per frame over 1,024 frames, is on average 12&times; faster than StreamVGGT, and outperforms its teacher.</p>
