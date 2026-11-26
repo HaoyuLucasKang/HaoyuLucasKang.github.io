@@ -12,7 +12,7 @@ I am a first-year M.S. student in Computer Science at the University of North Ca
 
 My work spans three complementary directions:
 
-1. **Perceive:** efficient 3D perception from long video streams ([LinearVGGT, Preprint 2026](#linearvggt)).
+1. **Perceive:** efficient 3D perception from long video streams ([LinearVGGT, arXiv 2026](#linearvggt)).
 2. **Imagine:** safe and controllable video generation as world simulators ([VPA-Guard, arXiv 2026](#vpa-guard)).
 3. **Act:** embodied intelligence for new domains, scenarios and applications.
 
@@ -43,7 +43,7 @@ My work spans three complementary directions:
 
 <div class="home-publication" id="linearvggt">
   <div class="home-publication__image">
-    <span class="home-publication__badge">Preprint 2026</span>
+    <span class="home-publication__badge">arXiv 2026</span>
     <a href="https://unites-lab.github.io/linear-vggt/">
       <img src="/images/LinearVGGT-method.png" alt="LinearVGGT method overview" loading="lazy">
     </a>
@@ -51,7 +51,7 @@ My work spans three complementary directions:
   <div class="home-publication__content">
     <h3 class="home-publication__title">Linear-time Online Visual Geometry Transformer with Hybrid Architecture</h3>
     <p class="home-publication__authors"><strong>Haoyu Kang</strong>, Pingzhi Li, Ruichen Zhang, Tianlong Chen</p>
-    <p class="home-publication__links"><span class="home-publication__pending">Paper (coming soon)</span> | <a href="https://unites-lab.github.io/linear-vggt/">Project Page</a> | <a href="https://github.com/UNITES-Lab/linear-vggt">Code</a></p>
+    <p class="home-publication__links"><a href="https://arxiv.org/abs/2611.33650">Paper</a> | <a href="https://unites-lab.github.io/linear-vggt/">Project Page</a> | <a href="https://github.com/UNITES-Lab/linear-vggt">Code</a></p>
     <p class="home-publication__tldr"><strong>TL;DR.</strong> Online 3D reconstruction models either cache all past tokens, so compute grows quadratically with the stream length, or keep a fixed-size state that forgets early geometry. We proposed LinearVGGT, a hybrid model distilled from StreamVGGT. It uses Mamba2 layers in three of every four global layers and register-guided sparse attention in the other layers to retrieve relevant past frames. LinearVGGT keeps an almost constant latency of 27&nbsp;ms per frame over 1,024 frames, is on average 12&times; faster than StreamVGGT, and outperforms its teacher.</p>
     <details class="home-publication__details">
       <summary>Abstract</summary>
