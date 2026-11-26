@@ -12,8 +12,8 @@ I am a first-year M.S. student in Computer Science at the University of North Ca
 
 My work spans three complementary directions:
 
-1. **Perceive:** efficient 3D perception from long video streams ([LinearVGGT, arXiv 2026](#linearvggt)).
-2. **Imagine:** safe and controllable video generation as world simulators ([VPA-Guard, arXiv 2026](#vpa-guard)).
+1. **Perceive:** efficient 3D perception from long video streams.
+2. **Imagine:** safe and controllable video generation as world simulators.
 3. **Act:** embodied intelligence for new domains, scenarios and applications.
 
 <h2 class="section-heading" id="education">Education</h2>
